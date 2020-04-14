@@ -24,6 +24,6 @@ $(function () {
     //Keypress code to output as you type. I tried at this for a few hours and couldn't
     //figure out anything too fancy unfortunately.
     $("input#keyPressInput").keyup(function () {
-        $(".output").text($(this).val());
+        $(".output").text($(this).val()).addClass("sentText");
     });
 });
