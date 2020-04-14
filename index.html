@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Dev09 Jquery Input & Output</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--Github repo, nuchecker, and wave links in the footer-->
+  <!--Nav bar code-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">CIS 376</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Dev09</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center">
+    <div class="row content">
+
+      <div class="mainContent text-left">
+        <header>
+          <h1>Ben Davis - Dev09 Jquery Inputs & Outputs</h1>
+        </header>
+        <hr>
+        <!--main code for assignment starts here with the first input box-->
+        <div class="container">
+          <form autocomplete="off">
+            <!--browser autofill off-->
+            <input id="textInput" />
+            <button id="btnSendText" class="btn-primary">Click Here</button> </hr>
+            <button type="reset">Reset</button>
+            <!--Resets the text in the input box-->
+            <button id="clearForm">Clear Page</button>
+            <span id="textOutput" class="sentText">example text</span>
+          </form>
+        </div>
+        <hr>
+
+        <!---------------Second input box for keypress------------------->
+        <div class="container">
+          <form autocomplete="off">
+            <!--browser autofill off-->
+            <input id="keyPressInput" type="text" />
+            <div class="output"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Links to my repo, nuchecker, and wave below in the footer-->
+  <footer class="container-fluid text-center">
+    <p>GitHub Repo link:
+      <a href="" target="_blank">Github Dev09 Repo</a>
+      Nuchecker link:
+      <a href="" target="_blank">Nuchecker for Dev09</a>
+      Wave checker:
+      <a href="" target="_blank">Wave for Dev09</a></p>
+  </footer>
+  <script src="scripts/myScript.js"></script>
+
+</body>
+
+</html>
